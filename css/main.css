@@ -14,29 +14,29 @@ img {
   height: auto;
 }
 
-/**
- * AB_colors
- * version: 1.0.0
- */
-@media (min-width: 768px) {
-  .glossary {
-    max-width: 50%;
-  }
-}
 .glossary ul {
   padding: 0;
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 .glossary ul li {
   padding: 0;
-  background: #333;
   margin-bottom: 16px;
   position: relative;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .glossary ul li {
+    width: 49%;
+  }
+}
+.glossary ul li .item {
+  background: #333;
 }
 .glossary ul li h3 {
-  font-size: 32px;
+  font-size: 18px;
   margin: 0;
-  font-weight: normal;
   cursor: pointer;
   color: #fff;
   padding: 16px;
@@ -44,14 +44,14 @@ img {
 .glossary ul li h3::after {
   margin-left: 25px;
   content: "+";
-  font-size: 50px;
+  font-size: 30px;
   display: inline-block;
   position: absolute;
   right: 16px;
-  top: 0px;
+  top: 5px;
 }
 .glossary ul li h3.header-open::after {
-  font-size: 28px;
+  font-size: 18px;
   content: "—";
   font-weight: bold;
   top: 15px;
@@ -61,8 +61,12 @@ img {
   background: #eee;
   padding: 16px;
   margin-top: 0;
+  margin-bottom: 0;
   line-height: 150%;
 }
 .glossary ul li p.paragraph-open {
   display: block;
+}
+.glossary ul li:nth-child(even) {
+  margin-left: 2%;
 }
