@@ -3,3 +3,21 @@
 
 // AB_glossary
 @use 'components/AB_glossary';
+
+// Demo styles
+.glossary {
+	ul {
+		display: block;
+
+		@media (min-width: 768px) {
+			width: 50%;
+		}
+	}
+
+	ul:first-of-type {
+
+		@media (min-width: 768px) {
+			margin-right: 2%;
+		}
+	}
+}
