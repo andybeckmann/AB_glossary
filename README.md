@@ -3,11 +3,12 @@ AB_glossary
 
 Add accordion-like functionality to list items using vanilla JavaScript.
 
-##Required files
+## Required files
 - Styles: /scss/components/_AB_glossary.scss 
 - Scripts: /js/AB_glossary.js
 
-##Use
+## Use
+### HTML
 ```
 <div id="glossary" class="glossary">
     <ul>
@@ -19,10 +20,13 @@ Add accordion-like functionality to list items using vanilla JavaScript.
         </li>
     </ul>
 </div>
+```
+### JS
+```
 <script>
     glossary('#glossary');
 </script>
 ```
 
-##Screenshot
+## Screenshot
 ![Screenshot](/screenshot.jpg?raw=true)
