@@ -14,7 +14,7 @@ AB_glossary adds accordion-like functionality to list items using JavaScript.
 ### Scripts
 [AB_glossary/js/AB_glossary.js](https://github.com/andybeckmann/AB_glossary/blob/master/js/AB_glossary.js)
 
-## Use
+## Example
 
 ### HTML
 ```html
