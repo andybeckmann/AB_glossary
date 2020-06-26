@@ -17,7 +17,7 @@ AB_glossary adds accordion-like functionality to list items using vanilla JavaSc
 ## Use
 
 ### HTML
-```
+```html
 <div id="glossary" class="glossary">
     <ul>
         <li>
@@ -30,8 +30,6 @@ AB_glossary adds accordion-like functionality to list items using vanilla JavaSc
 </div>
 ```
 ### JS
-```
-<script>
-    glossary('#glossary');
-</script>
+```javascript
+glossary('#glossary');
 ```
