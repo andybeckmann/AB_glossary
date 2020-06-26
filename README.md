@@ -1,18 +1,18 @@
 AB_glossary
 ==========
 
-Add accordion-like functionality to list items using vanilla JavaScript.
+AB_glossary adds accordion-like functionality to list items using vanilla JavaScript.
 
 ## Screenshot
 ![Screenshot](/screenshot.jpg?raw=true)
 
 ## Required files
 
-### SCSS
-AB_glossary/scss/components/_AB_glossary.scss
+### Styles
+[AB_glossary/scss/components/_AB_glossary.scss](https://github.com/andybeckmann/AB_glossary/blob/master/scss/components/_AB_glossary.scss)
 
-### JS
-AB_glossary/js/AB_glossary.js
+### Scripts
+[AB_glossary/js/AB_glossary.js](https://github.com/andybeckmann/AB_glossary/blob/master/js/AB_glossary.js)
 
 ## Use
 
