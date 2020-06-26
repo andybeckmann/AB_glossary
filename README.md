@@ -1,7 +1,7 @@
 AB_glossary
 ==========
 
-AB_glossary adds accordion-like functionality to list items using vanilla JavaScript.
+AB_glossary adds accordion-like functionality to list items using JavaScript.
 
 ## Screenshot
 ![Screenshot](/screenshot.jpg?raw=true)
